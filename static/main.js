@@ -37,7 +37,7 @@ $("#BookContent").click(function(e) {
             $("#result").show();
             setTimeout(function(){
                 $("#result").hide();
-            } ,3000);
+            } , 5000);
         });
     }
 });
