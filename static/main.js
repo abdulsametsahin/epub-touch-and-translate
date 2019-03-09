@@ -18,9 +18,12 @@ $(function(){
                 $("#result").html("<i class='fa fa-volume-up'></i> "+json.origin +": <b>"+text+"</b>");
                 $("#result").data('text', json.origin);
                 $("#result").show();
-                setTimeout(function(){
+
+                var hiderTimeout;
+                hiderTimeout = setTimeout(function(){
                     $("#result").hide();
-                } , 5000);
+                } , 7000);
+                clearTimeout(hiderTimeout);
             });
     });
 });
