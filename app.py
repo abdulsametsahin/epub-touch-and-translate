@@ -25,6 +25,7 @@ def dated_url_for(endpoint, **values):
 
 @app.route('/read/<bookname>/')
 def book(bookname):
+	booknameonly = bookname;
 	bookname = "static/epubs/"+bookname+".epub"
 	Book = epub.read_epub(bookname)
 	FirstPage = ""
@@ -32,7 +33,7 @@ def book(bookname):
 		if item.get_type() == ebooklib.ITEM_DOCUMENT:
 			FirstPage = item.get_name()
 			break
-	return read(bookname, FirstPage)
+	return read(booknameonly, FirstPage)
 
 @app.route('/read/<bookname>/<itemname>')
 def read(bookname, itemname):
