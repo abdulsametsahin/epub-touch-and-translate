@@ -34,6 +34,7 @@ $("#BookContent").click(function(e) {
             var text = array.join(", ");
             $("#result").html("<i class='fa fa-volume-up'></i> "+json.origin +": <b>"+text+"</b>");
             $("#result").data('text', json.origin);
+            $("#result").show();
             setTimeout(function(){
                 $("#result").hide();
             } ,3000);
