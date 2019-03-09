@@ -64,7 +64,7 @@ def read(bookname, itemname):
 			if IsCurrentPage == False:
 				PrevPage = item.get_name()
 
-	return render_template('read.html', bookname=bookname, BookBody=Content, PrevPage=PrevPage, NextPage=NextPage, FirstPage=FirstPage)
+	return render_template('read.html', bookname=booknameonly, BookBody=Content, PrevPage=PrevPage, NextPage=NextPage, FirstPage=FirstPage)
 
 @app.route('/translate/<text>')
 def translate(text):
