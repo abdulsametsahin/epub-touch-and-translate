@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" version="3.0" xml:lang="en" unique-identifier="pub-identifier">
+  <metadata>
+    <dc:identifier id="pub-identifier">_simple_book</dc:identifier>
+    <meta id="meta-identifier" property="dcterms:identifier">_simple_book</meta>
+    <dc:title id="pub-title">Les Misérables</dc:title>
+    <meta property="dcterms:title" id="meta-title">Les Misérables</meta>
+    <dc:language id="pub-language">en</dc:language>
+    <meta property="dcterms:language" id="meta-language">en</meta>
+    <meta property="dcterms:modified">2014-03-13T16:39:40Z</meta>
+    <!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+    <meta content="cover-image" name="cover"/>
+    <meta id="meta-creator1" property="dcterms:creator">Victor Hugo</meta>
+    <dc:creator id="pub-creator1">Victor Hugo</dc:creator>
+    <meta property="dcterms:contributor">Isabel Florence Hapgood</meta>
+    <dc:contributor>Isabel Florence Hapgood</dc:contributor>
+    <meta property="dcterms:date">2014-03-13</meta>
+    <dc:date>2014-03-13</dc:date>
+    <meta property="dcterms:publisher">epubBooks Classics</meta>
+    <dc:publisher>epubBooks Classics</dc:publisher>
+    <meta property="dcterms:date">First published in 1887</meta>
+    <dc:date>First published in 1887</dc:date>
+    <meta property="dcterms:rights">Copyright © 2014 epubBooks</meta>
+    <dc:rights>Copyright © 2014 epubBooks</dc:rights>
+    <meta property="dcterms:rightsHolder">epubBooks</meta>
+    <meta property="dcterms:subject">Historical Fiction</meta>
+    <dc:subject>Historical Fiction</dc:subject>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="htmltoc" properties="nav" media-type="application/xhtml+xml" href="bk01-toc.xhtml"/>
+    <item media-type="text/css" id="html-css" href="epubbooks.css"/>
+    <item media-type="text/css" id="docbook-css" href="docbook-epub.css"/>
+    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover-image" properties="cover-image" href="epubbooks-cover.jpg" media-type="image/jpeg"/>
+    <item id="id-id1172295707189" href="index.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295557900" href="pr01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295348188" href="pt01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295347186" href="ch01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295346610" href="ch01s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295343515" href="ch01s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294457222" href="ch01s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294455625" href="ch01s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295554550" href="ch01s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295551659" href="ch01s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294420043" href="ch01s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294423128" href="ch01s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294452517" href="ch01s09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294450800" href="ch01s10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294961987" href="ch01s11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294961373" href="ch01s12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294961148" href="ch01s13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294960674" href="ch01s14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294960191" href="ch02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294960142" href="ch02s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294462286" href="ch02s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294464461" href="ch02s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294956158" href="ch02s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294954995" href="ch02s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294953649" href="ch02s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294952579" href="ch02s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294950636" href="ch02s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294949718" href="ch02s09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294949228" href="ch02s10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295037438" href="ch02s11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295042222" href="ch02s12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294516912" href="ch02s13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294535097" href="ch03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294534963" href="ch03s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294534573" href="ch03s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294533352" href="ch03s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294532743" href="ch03s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294531335" href="ch03s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294530583" href="ch03s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294529840" href="ch03s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295328768" href="ch03s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295069234" href="ch03s09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295067522" href="ch04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295067301" href="ch04s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295064255" href="ch04s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295063725" href="ch04s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295062616" href="ch05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295062530" href="ch05s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295061863" href="ch05s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295332165" href="ch05s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295194005" href="ch05s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295195138" href="ch05s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295198968" href="ch05s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295267077" href="ch05s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295382638" href="ch05s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295379088" href="ch05s09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294747280" href="ch05s10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295653073" href="ch05s11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295411664" href="ch05s12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295543170" href="ch05s13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295652653" href="ch06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295214796" href="ch06s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295555350" href="ch06s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294461389" href="ch07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294930335" href="ch07s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294927700" href="ch07s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295345097" href="ch07s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294589589" href="ch07s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294962585" href="ch07s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295713684" href="ch07s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295554228" href="ch07s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294925554" href="ch07s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294922404" href="ch07s09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295178594" href="ch07s10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294451702" href="ch07s11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295069180" href="ch08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295068470" href="ch08s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295555713" href="ch08s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294554123" href="ch08s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295104540" href="ch08s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295069592" href="ch08s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295556621" href="pt02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295555946" href="ch09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295555747" href="ch09s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295554490" href="ch09s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295551944" href="ch09s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294439707" href="ch09s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295385302" href="ch09s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295388355" href="ch09s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295390622" href="ch09s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295393632" href="ch09s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295565840" href="ch09s09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295423116" href="ch09s10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294730752" href="ch09s11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295279794" href="ch09s12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295279046" href="ch09s13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295278343" href="ch09s14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295277779" href="ch09s15.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295276554" href="ch09s16.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295273516" href="ch09s17.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295272858" href="ch09s18.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295271529" href="ch09s19.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294423262" href="ch10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294422846" href="ch10s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294421364" href="ch10s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294419574" href="ch10s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294416929" href="ch11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294416695" href="ch11s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294415240" href="ch11s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294462479" href="ch11s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295043264" href="ch11s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294512231" href="ch11s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294927506" href="ch11s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294513378" href="ch11s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295330629" href="ch11s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294554148" href="ch11s09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294546599" href="ch11s10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294454423" href="ch11s11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294453746" href="ch12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294452880" href="ch12s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294451182" href="ch12s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294450154" href="ch12s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294963414" href="ch12s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294962492" href="ch12s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294959093" href="ch13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294958886" href="ch13s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294956713" href="ch13s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294954222" href="ch13s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294952304" href="ch13s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294951051" href="ch13s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294536979" href="ch13s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294535099" href="ch13s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294532806" href="ch13s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294530280" href="ch13s09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295067058" href="ch13s10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295062719" href="ch14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295062507" href="ch14s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294433301" href="ch14s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294477667" href="ch14s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294476906" href="ch14s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295230534" href="ch14s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294747038" href="ch14s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294745735" href="ch14s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294744868" href="ch14s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294744521" href="ch14s09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294743655" href="ch14s10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294742938" href="ch14s11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294741851" href="ch15.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294741680" href="ch15s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294741316" href="ch15s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294740735" href="ch15s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294739810" href="ch15s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294738573" href="ch15s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295576229" href="ch15s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295572454" href="ch15s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295571008" href="ch15s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294650777" href="ch16.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294650486" href="ch16s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294644843" href="ch16s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294643305" href="ch16s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294485503" href="ch16s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295715025" href="ch16s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295204637" href="ch16s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294361243" href="ch16s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295267015" href="ch16s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295263207" href="ch16s09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294690750" href="pt03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294690049" href="ch17.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294689947" href="ch17s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294689338" href="ch17s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294687771" href="ch17s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294686738" href="ch17s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295373902" href="ch17s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294753378" href="ch17s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294751249" href="ch17s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294749483" href="ch17s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295690233" href="ch17s09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295684777" href="ch17s10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295382219" href="ch17s11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295378442" href="ch17s12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295377012" href="ch17s13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295530414" href="ch18.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295530098" href="ch18s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295529096" href="ch18s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295528437" href="ch18s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295528085" href="ch18s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295527479" href="ch18s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295527185" href="ch18s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295526715" href="ch18s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295526190" href="ch18s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295594180" href="ch19.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295593245" href="ch19s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294941963" href="ch19s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294940003" href="ch19s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294622653" href="ch19s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294618973" href="ch19s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294616860" href="ch19s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295625569" href="ch19s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295078870" href="ch19s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295073668" href="ch20.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295073507" href="ch20s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295357364" href="ch20s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295353981" href="ch20s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295352860" href="ch20s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294388054" href="ch20s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294385074" href="ch20s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295061089" href="ch21.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295060965" href="ch21s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295059537" href="ch21s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295058468" href="ch21s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295057349" href="ch21s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295055991" href="ch21s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295054393" href="ch21s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295226527" href="ch22.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295226412" href="ch22s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295225303" href="ch22s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295224395" href="ch22s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295223432" href="ch22s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295221843" href="ch22s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295221020" href="ch22s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295219798" href="ch22s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295219105" href="ch22s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295314030" href="ch22s09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295310340" href="ch23.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295310112" href="ch23s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295308939" href="ch23s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295308208" href="ch23s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295307706" href="ch23s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295401636" href="ch24.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295401411" href="ch24s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295399976" href="ch24s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295397839" href="ch24s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295288736" href="ch24s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295280494" href="ch24s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295261929" href="ch24s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295258586" href="ch24s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294413597" href="ch24s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294411630" href="ch24s09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294407247" href="ch24s10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295296501" href="ch24s11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295292208" href="ch24s12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294367402" href="ch24s13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294365434" href="ch24s14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294605477" href="ch24s15.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294603312" href="ch24s16.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294544945" href="ch24s17.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294541404" href="ch24s18.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294538977" href="ch24s19.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294578684" href="ch24s20.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294593196" href="ch24s21.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294498607" href="ch24s22.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295601815" href="pt04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295600056" href="ch25.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295599440" href="ch25s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294658352" href="ch25s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294719177" href="ch25s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294713391" href="ch25s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295038599" href="ch25s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294945225" href="ch25s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295400033" href="ch26.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295398834" href="ch26s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295291620" href="ch26s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295086685" href="ch26s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295597469" href="ch26s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295274496" href="ch27.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295274336" href="ch27s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294423542" href="ch27s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294422620" href="ch27s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294420688" href="ch27s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294415254" href="ch27s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294926339" href="ch27s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294924213" href="ch27s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295347693" href="ch27s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295345077" href="ch28.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295344998" href="ch28s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295342838" href="ch28s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294546787" href="ch29.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294546635" href="ch29s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294458125" href="ch29s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294453740" href="ch29s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294451359" href="ch29s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294961513" href="ch29s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294960184" href="ch29s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294955147" href="ch30.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294955046" href="ch30s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294952674" href="ch30s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295193356" href="ch30s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294515095" href="ch31.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294514511" href="ch31s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295043644" href="ch31s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294461675" href="ch31s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294372700" href="ch31s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295723201" href="ch32.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295720688" href="ch32s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294229604" href="ch32s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295722035" href="ch32s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295679800" href="ch32s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295538331" href="ch32s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295535219" href="ch32s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295537250" href="ch32s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294723556" href="ch33.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294722923" href="ch33s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295675997" href="ch33s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295541569" href="ch33s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295534607" href="ch34.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295534300" href="ch34s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295677871" href="ch34s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295717883" href="ch34s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295722416" href="ch34s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295680264" href="ch34s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295534106" href="ch35.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295721243" href="ch35s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295673575" href="ch35s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295679389" href="ch35s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295536108" href="ch35s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295535554" href="ch35s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294724213" href="ch35s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295674778" href="ch36.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295674169" href="ch36s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295725542" href="ch36s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295538452" href="ch36s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294724989" href="ch36s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295540161" href="ch36s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295535806" href="ch36s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295677580" href="ch36s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294726561" href="ch36s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295724414" href="ch37.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295717773" href="ch37s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294726573" href="ch37s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294722040" href="ch37s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295721680" href="ch38.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295718308" href="ch38s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295717627" href="ch38s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295718893" href="ch38s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295722546" href="ch38s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295337661" href="ch38s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295333482" href="ch38s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295338254" href="ch38s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295334109" href="ch39.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295333782" href="ch39s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294401704" href="ch39s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294401368" href="ch39s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294398396" href="ch39s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294405122" href="pt05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294404689" href="ch40.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294404237" href="ch40s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294400903" href="ch40s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295339649" href="ch40s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295337507" href="ch40s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295338017" href="ch40s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295334804" href="ch40s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295333449" href="ch40s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295335456" href="ch40s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294398098" href="ch40s09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294404938" href="ch40s10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294403825" href="ch40s11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294400274" href="ch40s12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294397716" href="ch40s13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295337665" href="ch40s14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295334864" href="ch40s15.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295334295" href="ch40s16.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295338313" href="ch40s17.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294402599" href="ch40s18.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295944683" href="ch40s19.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295944909" href="ch40s20.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295945176" href="ch40s21.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295945342" href="ch40s22.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295945443" href="ch40s23.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295945582" href="ch40s24.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295945685" href="ch41.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295945693" href="ch41s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295945860" href="ch41s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295945936" href="ch41s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295945980" href="ch41s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295946033" href="ch41s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295946061" href="ch41s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295946123" href="ch42.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295946133" href="ch42s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295946314" href="ch42s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295946412" href="ch42s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295946653" href="ch42s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295946736" href="ch42s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295946806" href="ch42s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295946883" href="ch42s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295946983" href="ch42s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295947268" href="ch42s09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295947486" href="ch42s10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295947633" href="ch42s11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295947732" href="ch42s12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295947908" href="ch43.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295947918" href="ch43s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295948407" href="ch44.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295948416" href="ch44s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295948587" href="ch44s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295948778" href="ch44s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295948915" href="ch44s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295949209" href="ch44s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295949244" href="ch44s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295949434" href="ch44s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295949502" href="ch44s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295949717" href="ch45.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295949727" href="ch45s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295950248" href="ch45s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295950507" href="ch45s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295950587" href="ch45s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295950806" href="ch46.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295950837" href="ch46s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295951595" href="ch46s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295951865" href="ch47.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295951897" href="ch47s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295952234" href="ch47s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295952330" href="ch47s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295952629" href="ch47s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295952677" href="ch48.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295952686" href="ch48s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295952778" href="ch48s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295952922" href="ch48s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295644656" href="ch48s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295639344" href="ch48s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295643682" href="ch48s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295643038" href="ch48s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id1172295635720" href="images/1frontispiece.jpg" media-type="image/jpeg"/>
+    <item id="id1172295636962" href="images/1b1-5-comfortor.jpg" media-type="image/jpeg"/>
+    <item id="id1172295636625" href="images/1b2-10-the-fall.jpg" media-type="image/jpeg"/>
+    <item id="id1172295636696" href="images/1b2-11-awakened.jpg" media-type="image/jpeg"/>
+    <item id="id1172295630822" href="images/1b4-1-cossette-sweeping.jpg" media-type="image/jpeg"/>
+    <item id="id1172295637427" href="images/1b7-3-into-the-fire.jpg" media-type="image/jpeg"/>
+    <item id="id1172295636952" href="images/2frontispiece.jpg" media-type="image/jpeg"/>
+    <item id="id1172295638309" href="images/2b3-10-gorbeau-house.jpg" media-type="image/jpeg"/>
+    <item id="id1172295630986" href="images/2b5-1-black-hunt.jpg" media-type="image/jpeg"/>
+    <item id="id1172295637570" href="images/2b5-10-javert-on-the-hunt.jpg" media-type="image/jpeg"/>
+    <item id="id1172295637872" href="images/2b8-9-banknote.jpg" media-type="image/jpeg"/>
+    <item id="id1172294396448" href="images/3frontispiece.jpg" media-type="image/jpeg"/>
+    <item id="id1172295635962" href="images/3b1-13-gavroche.jpg" media-type="image/jpeg"/>
+    <item id="id1172295637793" href="images/3b4-1-abc-friends.jpg" media-type="image/jpeg"/>
+    <item id="id1172295636685" href="images/3b5-1-misfortune.jpg" media-type="image/jpeg"/>
+    <item id="id1172295636829" href="images/3b8-4-rose-in-misery.jpg" media-type="image/jpeg"/>
+    <item id="id1172294397368" href="images/3b8-20-red-hot-chisel.jpg" media-type="image/jpeg"/>
+    <item id="id1172294397157" href="images/3b8-21-paving-stone.jpg" media-type="image/jpeg"/>
+    <item id="id1172294898528" href="images/4frontispiece.jpg" media-type="image/jpeg"/>
+    <item id="id1172294396028" href="images/4b1-5-street-orator.jpg" media-type="image/jpeg"/>
+    <item id="id1172295453646" href="images/4b1-5-a-page26.jpg" media-type="image/jpeg"/>
+    <item id="id1172294392588" href="images/4b4-5-cosette-after-letter.jpg" media-type="image/jpeg"/>
+    <item id="id1172294391645" href="images/5frontispiece.jpg" media-type="image/jpeg"/>
+    <item id="id1172294393600" href="images/5b7-1-last-drop.jpg" media-type="image/jpeg"/>
+    <item id="id1172294396001" href="images/5b8-1-twilight-decline.jpg" media-type="image/jpeg"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover" linear="no"/>
+    <itemref idref="htmltoc" linear="yes"/>
+    <itemref idref="id-id1172295707189"/>
+    <itemref idref="id-id1172295557900"/>
+    <itemref idref="id-id1172295348188"/>
+    <itemref idref="id-id1172295347186"/>
+    <itemref idref="id-id1172295346610"/>
+    <itemref idref="id-id1172295343515"/>
+    <itemref idref="id-id1172294457222"/>
+    <itemref idref="id-id1172294455625"/>
+    <itemref idref="id-id1172295554550"/>
+    <itemref idref="id-id1172295551659"/>
+    <itemref idref="id-id1172294420043"/>
+    <itemref idref="id-id1172294423128"/>
+    <itemref idref="id-id1172294452517"/>
+    <itemref idref="id-id1172294450800"/>
+    <itemref idref="id-id1172294961987"/>
+    <itemref idref="id-id1172294961373"/>
+    <itemref idref="id-id1172294961148"/>
+    <itemref idref="id-id1172294960674"/>
+    <itemref idref="id-id1172294960191"/>
+    <itemref idref="id-id1172294960142"/>
+    <itemref idref="id-id1172294462286"/>
+    <itemref idref="id-id1172294464461"/>
+    <itemref idref="id-id1172294956158"/>
+    <itemref idref="id-id1172294954995"/>
+    <itemref idref="id-id1172294953649"/>
+    <itemref idref="id-id1172294952579"/>
+    <itemref idref="id-id1172294950636"/>
+    <itemref idref="id-id1172294949718"/>
+    <itemref idref="id-id1172294949228"/>
+    <itemref idref="id-id1172295037438"/>
+    <itemref idref="id-id1172295042222"/>
+    <itemref idref="id-id1172294516912"/>
+    <itemref idref="id-id1172294535097"/>
+    <itemref idref="id-id1172294534963"/>
+    <itemref idref="id-id1172294534573"/>
+    <itemref idref="id-id1172294533352"/>
+    <itemref idref="id-id1172294532743"/>
+    <itemref idref="id-id1172294531335"/>
+    <itemref idref="id-id1172294530583"/>
+    <itemref idref="id-id1172294529840"/>
+    <itemref idref="id-id1172295328768"/>
+    <itemref idref="id-id1172295069234"/>
+    <itemref idref="id-id1172295067522"/>
+    <itemref idref="id-id1172295067301"/>
+    <itemref idref="id-id1172295064255"/>
+    <itemref idref="id-id1172295063725"/>
+    <itemref idref="id-id1172295062616"/>
+    <itemref idref="id-id1172295062530"/>
+    <itemref idref="id-id1172295061863"/>
+    <itemref idref="id-id1172295332165"/>
+    <itemref idref="id-id1172295194005"/>
+    <itemref idref="id-id1172295195138"/>
+    <itemref idref="id-id1172295198968"/>
+    <itemref idref="id-id1172295267077"/>
+    <itemref idref="id-id1172295382638"/>
+    <itemref idref="id-id1172295379088"/>
+    <itemref idref="id-id1172294747280"/>
+    <itemref idref="id-id1172295653073"/>
+    <itemref idref="id-id1172295411664"/>
+    <itemref idref="id-id1172295543170"/>
+    <itemref idref="id-id1172295652653"/>
+    <itemref idref="id-id1172295214796"/>
+    <itemref idref="id-id1172295555350"/>
+    <itemref idref="id-id1172294461389"/>
+    <itemref idref="id-id1172294930335"/>
+    <itemref idref="id-id1172294927700"/>
+    <itemref idref="id-id1172295345097"/>
+    <itemref idref="id-id1172294589589"/>
+    <itemref idref="id-id1172294962585"/>
+    <itemref idref="id-id1172295713684"/>
+    <itemref idref="id-id1172295554228"/>
+    <itemref idref="id-id1172294925554"/>
+    <itemref idref="id-id1172294922404"/>
+    <itemref idref="id-id1172295178594"/>
+    <itemref idref="id-id1172294451702"/>
+    <itemref idref="id-id1172295069180"/>
+    <itemref idref="id-id1172295068470"/>
+    <itemref idref="id-id1172295555713"/>
+    <itemref idref="id-id1172294554123"/>
+    <itemref idref="id-id1172295104540"/>
+    <itemref idref="id-id1172295069592"/>
+    <itemref idref="id-id1172295556621"/>
+    <itemref idref="id-id1172295555946"/>
+    <itemref idref="id-id1172295555747"/>
+    <itemref idref="id-id1172295554490"/>
+    <itemref idref="id-id1172295551944"/>
+    <itemref idref="id-id1172294439707"/>
+    <itemref idref="id-id1172295385302"/>
+    <itemref idref="id-id1172295388355"/>
+    <itemref idref="id-id1172295390622"/>
+    <itemref idref="id-id1172295393632"/>
+    <itemref idref="id-id1172295565840"/>
+    <itemref idref="id-id1172295423116"/>
+    <itemref idref="id-id1172294730752"/>
+    <itemref idref="id-id1172295279794"/>
+    <itemref idref="id-id1172295279046"/>
+    <itemref idref="id-id1172295278343"/>
+    <itemref idref="id-id1172295277779"/>
+    <itemref idref="id-id1172295276554"/>
+    <itemref idref="id-id1172295273516"/>
+    <itemref idref="id-id1172295272858"/>
+    <itemref idref="id-id1172295271529"/>
+    <itemref idref="id-id1172294423262"/>
+    <itemref idref="id-id1172294422846"/>
+    <itemref idref="id-id1172294421364"/>
+    <itemref idref="id-id1172294419574"/>
+    <itemref idref="id-id1172294416929"/>
+    <itemref idref="id-id1172294416695"/>
+    <itemref idref="id-id1172294415240"/>
+    <itemref idref="id-id1172294462479"/>
+    <itemref idref="id-id1172295043264"/>
+    <itemref idref="id-id1172294512231"/>
+    <itemref idref="id-id1172294927506"/>
+    <itemref idref="id-id1172294513378"/>
+    <itemref idref="id-id1172295330629"/>
+    <itemref idref="id-id1172294554148"/>
+    <itemref idref="id-id1172294546599"/>
+    <itemref idref="id-id1172294454423"/>
+    <itemref idref="id-id1172294453746"/>
+    <itemref idref="id-id1172294452880"/>
+    <itemref idref="id-id1172294451182"/>
+    <itemref idref="id-id1172294450154"/>
+    <itemref idref="id-id1172294963414"/>
+    <itemref idref="id-id1172294962492"/>
+    <itemref idref="id-id1172294959093"/>
+    <itemref idref="id-id1172294958886"/>
+    <itemref idref="id-id1172294956713"/>
+    <itemref idref="id-id1172294954222"/>
+    <itemref idref="id-id1172294952304"/>
+    <itemref idref="id-id1172294951051"/>
+    <itemref idref="id-id1172294536979"/>
+    <itemref idref="id-id1172294535099"/>
+    <itemref idref="id-id1172294532806"/>
+    <itemref idref="id-id1172294530280"/>
+    <itemref idref="id-id1172295067058"/>
+    <itemref idref="id-id1172295062719"/>
+    <itemref idref="id-id1172295062507"/>
+    <itemref idref="id-id1172294433301"/>
+    <itemref idref="id-id1172294477667"/>
+    <itemref idref="id-id1172294476906"/>
+    <itemref idref="id-id1172295230534"/>
+    <itemref idref="id-id1172294747038"/>
+    <itemref idref="id-id1172294745735"/>
+    <itemref idref="id-id1172294744868"/>
+    <itemref idref="id-id1172294744521"/>
+    <itemref idref="id-id1172294743655"/>
+    <itemref idref="id-id1172294742938"/>
+    <itemref idref="id-id1172294741851"/>
+    <itemref idref="id-id1172294741680"/>
+    <itemref idref="id-id1172294741316"/>
+    <itemref idref="id-id1172294740735"/>
+    <itemref idref="id-id1172294739810"/>
+    <itemref idref="id-id1172294738573"/>
+    <itemref idref="id-id1172295576229"/>
+    <itemref idref="id-id1172295572454"/>
+    <itemref idref="id-id1172295571008"/>
+    <itemref idref="id-id1172294650777"/>
+    <itemref idref="id-id1172294650486"/>
+    <itemref idref="id-id1172294644843"/>
+    <itemref idref="id-id1172294643305"/>
+    <itemref idref="id-id1172294485503"/>
+    <itemref idref="id-id1172295715025"/>
+    <itemref idref="id-id1172295204637"/>
+    <itemref idref="id-id1172294361243"/>
+    <itemref idref="id-id1172295267015"/>
+    <itemref idref="id-id1172295263207"/>
+    <itemref idref="id-id1172294690750"/>
+    <itemref idref="id-id1172294690049"/>
+    <itemref idref="id-id1172294689947"/>
+    <itemref idref="id-id1172294689338"/>
+    <itemref idref="id-id1172294687771"/>
+    <itemref idref="id-id1172294686738"/>
+    <itemref idref="id-id1172295373902"/>
+    <itemref idref="id-id1172294753378"/>
+    <itemref idref="id-id1172294751249"/>
+    <itemref idref="id-id1172294749483"/>
+    <itemref idref="id-id1172295690233"/>
+    <itemref idref="id-id1172295684777"/>
+    <itemref idref="id-id1172295382219"/>
+    <itemref idref="id-id1172295378442"/>
+    <itemref idref="id-id1172295377012"/>
+    <itemref idref="id-id1172295530414"/>
+    <itemref idref="id-id1172295530098"/>
+    <itemref idref="id-id1172295529096"/>
+    <itemref idref="id-id1172295528437"/>
+    <itemref idref="id-id1172295528085"/>
+    <itemref idref="id-id1172295527479"/>
+    <itemref idref="id-id1172295527185"/>
+    <itemref idref="id-id1172295526715"/>
+    <itemref idref="id-id1172295526190"/>
+    <itemref idref="id-id1172295594180"/>
+    <itemref idref="id-id1172295593245"/>
+    <itemref idref="id-id1172294941963"/>
+    <itemref idref="id-id1172294940003"/>
+    <itemref idref="id-id1172294622653"/>
+    <itemref idref="id-id1172294618973"/>
+    <itemref idref="id-id1172294616860"/>
+    <itemref idref="id-id1172295625569"/>
+    <itemref idref="id-id1172295078870"/>
+    <itemref idref="id-id1172295073668"/>
+    <itemref idref="id-id1172295073507"/>
+    <itemref idref="id-id1172295357364"/>
+    <itemref idref="id-id1172295353981"/>
+    <itemref idref="id-id1172295352860"/>
+    <itemref idref="id-id1172294388054"/>
+    <itemref idref="id-id1172294385074"/>
+    <itemref idref="id-id1172295061089"/>
+    <itemref idref="id-id1172295060965"/>
+    <itemref idref="id-id1172295059537"/>
+    <itemref idref="id-id1172295058468"/>
+    <itemref idref="id-id1172295057349"/>
+    <itemref idref="id-id1172295055991"/>
+    <itemref idref="id-id1172295054393"/>
+    <itemref idref="id-id1172295226527"/>
+    <itemref idref="id-id1172295226412"/>
+    <itemref idref="id-id1172295225303"/>
+    <itemref idref="id-id1172295224395"/>
+    <itemref idref="id-id1172295223432"/>
+    <itemref idref="id-id1172295221843"/>
+    <itemref idref="id-id1172295221020"/>
+    <itemref idref="id-id1172295219798"/>
+    <itemref idref="id-id1172295219105"/>
+    <itemref idref="id-id1172295314030"/>
+    <itemref idref="id-id1172295310340"/>
+    <itemref idref="id-id1172295310112"/>
+    <itemref idref="id-id1172295308939"/>
+    <itemref idref="id-id1172295308208"/>
+    <itemref idref="id-id1172295307706"/>
+    <itemref idref="id-id1172295401636"/>
+    <itemref idref="id-id1172295401411"/>
+    <itemref idref="id-id1172295399976"/>
+    <itemref idref="id-id1172295397839"/>
+    <itemref idref="id-id1172295288736"/>
+    <itemref idref="id-id1172295280494"/>
+    <itemref idref="id-id1172295261929"/>
+    <itemref idref="id-id1172295258586"/>
+    <itemref idref="id-id1172294413597"/>
+    <itemref idref="id-id1172294411630"/>
+    <itemref idref="id-id1172294407247"/>
+    <itemref idref="id-id1172295296501"/>
+    <itemref idref="id-id1172295292208"/>
+    <itemref idref="id-id1172294367402"/>
+    <itemref idref="id-id1172294365434"/>
+    <itemref idref="id-id1172294605477"/>
+    <itemref idref="id-id1172294603312"/>
+    <itemref idref="id-id1172294544945"/>
+    <itemref idref="id-id1172294541404"/>
+    <itemref idref="id-id1172294538977"/>
+    <itemref idref="id-id1172294578684"/>
+    <itemref idref="id-id1172294593196"/>
+    <itemref idref="id-id1172294498607"/>
+    <itemref idref="id-id1172295601815"/>
+    <itemref idref="id-id1172295600056"/>
+    <itemref idref="id-id1172295599440"/>
+    <itemref idref="id-id1172294658352"/>
+    <itemref idref="id-id1172294719177"/>
+    <itemref idref="id-id1172294713391"/>
+    <itemref idref="id-id1172295038599"/>
+    <itemref idref="id-id1172294945225"/>
+    <itemref idref="id-id1172295400033"/>
+    <itemref idref="id-id1172295398834"/>
+    <itemref idref="id-id1172295291620"/>
+    <itemref idref="id-id1172295086685"/>
+    <itemref idref="id-id1172295597469"/>
+    <itemref idref="id-id1172295274496"/>
+    <itemref idref="id-id1172295274336"/>
+    <itemref idref="id-id1172294423542"/>
+    <itemref idref="id-id1172294422620"/>
+    <itemref idref="id-id1172294420688"/>
+    <itemref idref="id-id1172294415254"/>
+    <itemref idref="id-id1172294926339"/>
+    <itemref idref="id-id1172294924213"/>
+    <itemref idref="id-id1172295347693"/>
+    <itemref idref="id-id1172295345077"/>
+    <itemref idref="id-id1172295344998"/>
+    <itemref idref="id-id1172295342838"/>
+    <itemref idref="id-id1172294546787"/>
+    <itemref idref="id-id1172294546635"/>
+    <itemref idref="id-id1172294458125"/>
+    <itemref idref="id-id1172294453740"/>
+    <itemref idref="id-id1172294451359"/>
+    <itemref idref="id-id1172294961513"/>
+    <itemref idref="id-id1172294960184"/>
+    <itemref idref="id-id1172294955147"/>
+    <itemref idref="id-id1172294955046"/>
+    <itemref idref="id-id1172294952674"/>
+    <itemref idref="id-id1172295193356"/>
+    <itemref idref="id-id1172294515095"/>
+    <itemref idref="id-id1172294514511"/>
+    <itemref idref="id-id1172295043644"/>
+    <itemref idref="id-id1172294461675"/>
+    <itemref idref="id-id1172294372700"/>
+    <itemref idref="id-id1172295723201"/>
+    <itemref idref="id-id1172295720688"/>
+    <itemref idref="id-id1172294229604"/>
+    <itemref idref="id-id1172295722035"/>
+    <itemref idref="id-id1172295679800"/>
+    <itemref idref="id-id1172295538331"/>
+    <itemref idref="id-id1172295535219"/>
+    <itemref idref="id-id1172295537250"/>
+    <itemref idref="id-id1172294723556"/>
+    <itemref idref="id-id1172294722923"/>
+    <itemref idref="id-id1172295675997"/>
+    <itemref idref="id-id1172295541569"/>
+    <itemref idref="id-id1172295534607"/>
+    <itemref idref="id-id1172295534300"/>
+    <itemref idref="id-id1172295677871"/>
+    <itemref idref="id-id1172295717883"/>
+    <itemref idref="id-id1172295722416"/>
+    <itemref idref="id-id1172295680264"/>
+    <itemref idref="id-id1172295534106"/>
+    <itemref idref="id-id1172295721243"/>
+    <itemref idref="id-id1172295673575"/>
+    <itemref idref="id-id1172295679389"/>
+    <itemref idref="id-id1172295536108"/>
+    <itemref idref="id-id1172295535554"/>
+    <itemref idref="id-id1172294724213"/>
+    <itemref idref="id-id1172295674778"/>
+    <itemref idref="id-id1172295674169"/>
+    <itemref idref="id-id1172295725542"/>
+    <itemref idref="id-id1172295538452"/>
+    <itemref idref="id-id1172294724989"/>
+    <itemref idref="id-id1172295540161"/>
+    <itemref idref="id-id1172295535806"/>
+    <itemref idref="id-id1172295677580"/>
+    <itemref idref="id-id1172294726561"/>
+    <itemref idref="id-id1172295724414"/>
+    <itemref idref="id-id1172295717773"/>
+    <itemref idref="id-id1172294726573"/>
+    <itemref idref="id-id1172294722040"/>
+    <itemref idref="id-id1172295721680"/>
+    <itemref idref="id-id1172295718308"/>
+    <itemref idref="id-id1172295717627"/>
+    <itemref idref="id-id1172295718893"/>
+    <itemref idref="id-id1172295722546"/>
+    <itemref idref="id-id1172295337661"/>
+    <itemref idref="id-id1172295333482"/>
+    <itemref idref="id-id1172295338254"/>
+    <itemref idref="id-id1172295334109"/>
+    <itemref idref="id-id1172295333782"/>
+    <itemref idref="id-id1172294401704"/>
+    <itemref idref="id-id1172294401368"/>
+    <itemref idref="id-id1172294398396"/>
+    <itemref idref="id-id1172294405122"/>
+    <itemref idref="id-id1172294404689"/>
+    <itemref idref="id-id1172294404237"/>
+    <itemref idref="id-id1172294400903"/>
+    <itemref idref="id-id1172295339649"/>
+    <itemref idref="id-id1172295337507"/>
+    <itemref idref="id-id1172295338017"/>
+    <itemref idref="id-id1172295334804"/>
+    <itemref idref="id-id1172295333449"/>
+    <itemref idref="id-id1172295335456"/>
+    <itemref idref="id-id1172294398098"/>
+    <itemref idref="id-id1172294404938"/>
+    <itemref idref="id-id1172294403825"/>
+    <itemref idref="id-id1172294400274"/>
+    <itemref idref="id-id1172294397716"/>
+    <itemref idref="id-id1172295337665"/>
+    <itemref idref="id-id1172295334864"/>
+    <itemref idref="id-id1172295334295"/>
+    <itemref idref="id-id1172295338313"/>
+    <itemref idref="id-id1172294402599"/>
+    <itemref idref="id-id1172295944683"/>
+    <itemref idref="id-id1172295944909"/>
+    <itemref idref="id-id1172295945176"/>
+    <itemref idref="id-id1172295945342"/>
+    <itemref idref="id-id1172295945443"/>
+    <itemref idref="id-id1172295945582"/>
+    <itemref idref="id-id1172295945685"/>
+    <itemref idref="id-id1172295945693"/>
+    <itemref idref="id-id1172295945860"/>
+    <itemref idref="id-id1172295945936"/>
+    <itemref idref="id-id1172295945980"/>
+    <itemref idref="id-id1172295946033"/>
+    <itemref idref="id-id1172295946061"/>
+    <itemref idref="id-id1172295946123"/>
+    <itemref idref="id-id1172295946133"/>
+    <itemref idref="id-id1172295946314"/>
+    <itemref idref="id-id1172295946412"/>
+    <itemref idref="id-id1172295946653"/>
+    <itemref idref="id-id1172295946736"/>
+    <itemref idref="id-id1172295946806"/>
+    <itemref idref="id-id1172295946883"/>
+    <itemref idref="id-id1172295946983"/>
+    <itemref idref="id-id1172295947268"/>
+    <itemref idref="id-id1172295947486"/>
+    <itemref idref="id-id1172295947633"/>
+    <itemref idref="id-id1172295947732"/>
+    <itemref idref="id-id1172295947908"/>
+    <itemref idref="id-id1172295947918"/>
+    <itemref idref="id-id1172295948407"/>
+    <itemref idref="id-id1172295948416"/>
+    <itemref idref="id-id1172295948587"/>
+    <itemref idref="id-id1172295948778"/>
+    <itemref idref="id-id1172295948915"/>
+    <itemref idref="id-id1172295949209"/>
+    <itemref idref="id-id1172295949244"/>
+    <itemref idref="id-id1172295949434"/>
+    <itemref idref="id-id1172295949502"/>
+    <itemref idref="id-id1172295949717"/>
+    <itemref idref="id-id1172295949727"/>
+    <itemref idref="id-id1172295950248"/>
+    <itemref idref="id-id1172295950507"/>
+    <itemref idref="id-id1172295950587"/>
+    <itemref idref="id-id1172295950806"/>
+    <itemref idref="id-id1172295950837"/>
+    <itemref idref="id-id1172295951595"/>
+    <itemref idref="id-id1172295951865"/>
+    <itemref idref="id-id1172295951897"/>
+    <itemref idref="id-id1172295952234"/>
+    <itemref idref="id-id1172295952330"/>
+    <itemref idref="id-id1172295952629"/>
+    <itemref idref="id-id1172295952677"/>
+    <itemref idref="id-id1172295952686"/>
+    <itemref idref="id-id1172295952778"/>
+    <itemref idref="id-id1172295952922"/>
+    <itemref idref="id-id1172295644656"/>
+    <itemref idref="id-id1172295639344"/>
+    <itemref idref="id-id1172295643682"/>
+    <itemref idref="id-id1172295643038"/>
+  </spine>
+  <guide>
+    <reference href="cover.xhtml" type="cover" title="Cover"/>
+    <reference href="bk01-toc.xhtml" type="toc" title="Table of Contents"/>
+  </guide>
+</package>

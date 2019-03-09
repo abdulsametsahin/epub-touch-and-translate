@@ -1,0 +1,34 @@
+<!doctype html>
+<head>
+	<title>Hello from Flask</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<div class="linkler">
+		<a href="{{ url_for('read', bookname=bookname, itemname=PrevPage) }}">< Prev Page</a>
+		<a href="{{ url_for('book', bookname=bookname) }}">First Page</a>
+		<a href="{{ url_for('read', bookname=bookname, itemname=NextPage) }}">Next Page ></a>
+	</div>
+
+	<div id="BookContent">
+		{{ BookBody|safe }}
+	</div>
+
+	<div class="linkler">
+		<a href="{{ url_for('read', bookname=bookname, itemname=PrevPage) }}">< Prev Page</a>
+		<a href="{{ url_for('book', bookname=bookname) }}">First Page</a>
+		<a href="{{ url_for('read', bookname=bookname, itemname=NextPage) }}">Next Page ></a>
+	</div>
+
+	<div id="result" data-text=""></div>
+
+	<input type="hidden" id="NextPage" value="{{ NextPage }}">
+	<input type="hidden" id="PrevPage" value="{{ PrevPage }}">
+
+	<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
