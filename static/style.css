@@ -15,12 +15,12 @@ img {
 body {
 	margin: 0;
 	padding: 20px;
-	font-size: 2.5vh;
+	font-size: 3vh;
 	background: var(--bg-color);
 }
 
 p {
-	line-height: 3.5vh;
+	line-height: 4vh;
 }
 
 #result {
