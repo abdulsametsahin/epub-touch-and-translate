@@ -25,7 +25,7 @@ def dated_url_for(endpoint, **values):
 
 @app.route('/')
 def index():
-	return "Kitap seç: sefiller, bride";
+	return render_template('home.html')
 
 @app.route('/read/<bookname>/')
 def book(bookname):
