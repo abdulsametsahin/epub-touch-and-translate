@@ -5,6 +5,7 @@ $(function(){
             $(this).html("<div>" + text + "</div>");
         });
 
+        var hiderTimeout;
 
         $(".tt").click(function () {
             var word = $(this)[0].innerText;
@@ -19,11 +20,11 @@ $(function(){
                 $("#result").data('text', json.origin);
                 $("#result").show();
 
-                var hiderTimeout;
+                clearTimeout(hiderTimeout);
+                
                 hiderTimeout = setTimeout(function(){
                     $("#result").hide();
                 } , 7000);
-                clearTimeout(hiderTimeout);
             });
     });
 });
