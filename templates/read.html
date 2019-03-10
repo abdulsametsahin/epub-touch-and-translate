@@ -7,21 +7,41 @@
 	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-	<div class="linkler">
-		<a href="{{ url_for('read', bookname=bookname, itemname=PrevPage) }}">< Prev Page</a>
-		<a href="{{ url_for('book', bookname=bookname) }}">First Page</a>
-		<a href="{{ url_for('index') }}">Home Page</a>
-		<a href="{{ url_for('read', bookname=bookname, itemname=NextPage) }}">Next Page ></a>
+	<div id="header">
+		<div class="sol">
+			<a href="{{ url_for('index') }}">
+				<i class="fa fa-home"></i>
+			</a>
+		</div>
+		<div class="sag">
+			<a href="{{ url_for('read', bookname=bookname, itemname=PrevPage) }}">
+				<i class="fa fa-angle-left"></i>
+			</a>
+			<a href="{{ url_for('read', bookname=bookname, itemname=NextPage) }}">
+				<i class="fa fa-angle-right"></i>
+			</a>
+			<a href="#" id="sayfalariAc">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+		<div class="clear"></div>
 	</div>
 
 	<div id="BookContent">
 		{{ BookBody|safe }}
 	</div>
 
-	<div class="linkler">
-		<a href="{{ url_for('read', bookname=bookname, itemname=PrevPage) }}">< Prev Page</a>
-		<a href="{{ url_for('book', bookname=bookname) }}">First Page</a>
-		<a href="{{ url_for('read', bookname=bookname, itemname=NextPage) }}">Next Page ></a>
+	<div id="sayfalar">
+		<h2>Sayfalar</h2>
+		<ul>
+			{% for Page in AllPages %}
+		        <li class="{{ 'active' if Page==itemname else '' }}">
+		        	<a href="{{ url_for('read', bookname=bookname, itemname=Page) }}">
+				        {{ Page }}
+				    </a>
+			    </li>
+		    {% endfor %}
+		</ul>
 	</div>
 
 	<div id="result" class="noselect" data-text=""></div>

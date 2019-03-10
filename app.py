@@ -55,8 +55,12 @@ def read(bookname, itemname):
 	FirstPage = ""
 	IsCurrentPage = False
 
+	AllPages = []
+
 	for item in Book.get_items():
 		if item.get_type() == ebooklib.ITEM_DOCUMENT:
+			AllPages.append(item.get_name());
+
 			if FirstPage == "":
 				FirstPage = item.get_name()
 
@@ -69,7 +73,7 @@ def read(bookname, itemname):
 			if IsCurrentPage == False:
 				PrevPage = item.get_name()
 
-	return render_template('read.html', bookname=booknameonly, BookBody=Content, PrevPage=PrevPage, NextPage=NextPage, FirstPage=FirstPage)
+	return render_template('read.html',itemname=itemname, AllPages=AllPages, bookname=booknameonly, BookBody=Content, PrevPage=PrevPage, NextPage=NextPage, FirstPage=FirstPage)
 
 @app.route('/translate/<text>')
 def translate(text):

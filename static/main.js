@@ -15,9 +15,7 @@ $(function(){
             word = word.replace(/(?:[\(\)\-&$#!\[\]{}\"\',\.]+(?:\s|$)|(?:^|\s)[\(\)\-&$#!\[\]{}\"\',\.]+)/g, ' ').trim();
 
             $("#result").html('<i class="fa fa-spinner fa-spin"></i>');
-            $.getJSON('/translate/'+word, {text: word}, function(json, textStatus) {
-                $(".tt").css('background', 'transparent');
-                $(".tt").css('color', '#000');  
+            $.getJSON('/translate/'+word, {text: word}, function(json, textStatus) { 
 
                 var array = [];
                 $.each(json.extra_data["possible-translations"][0][2], function(i, arr){
@@ -31,6 +29,9 @@ $(function(){
                 clearTimeout(hiderTimeout);
 
                 hiderTimeout = setTimeout(function(){
+                    
+                    $(".tt").css('background', 'transparent');
+                    $(".tt").css('color', '#000'); 
                     $("#result").hide();
                 } , 7000);
             });
@@ -39,4 +40,9 @@ $(function(){
 
 $("#result").click(function(){
     responsiveVoice.speak($(this).data('text'));
+});
+
+$("#sayfalariAc").click(function(event) {
+    event.preventDefault();
+    $("#sayfalar").slideToggle('slow');
 });
