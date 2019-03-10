@@ -22,14 +22,14 @@ $(function(){
                     array.push(arr[0]);
                 })
                 var text = array.join(", ");
-                $("#result").html("<i class='fa fa-volume-up'></i> "+json.origin +": <b>"+text+"</b>");
+                $("#result").html("<i class='fa fa-volume-up'></i> "+json.origin +"<hr> <b>"+text+"</b>");
                 $("#result").data('text', json.origin);
                 $("#result").show();
 
                 clearTimeout(hiderTimeout);
 
                 hiderTimeout = setTimeout(function(){
-                    
+
                     $(".tt").css('background', 'transparent');
                     $(".tt").css('color', '#000'); 
                     $("#result").hide();
