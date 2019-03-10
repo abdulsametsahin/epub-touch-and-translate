@@ -42,7 +42,7 @@ body {
 	background: #eee;
 	margin-left: -5px;
 	border-left: 1px solid #ddd;
-	line-height: 31px;
+	line-height: 44px;
 }
 
 .clear {
@@ -103,7 +103,7 @@ p {
 #sayfalar {
 	border-top: 1px solid #ddd;
 	position: fixed;
-	top: 41px;
+	top: 50px;
 	width: calc(100% - 20px);
 	right: 0;
 	bottom: 0;
