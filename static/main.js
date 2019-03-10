@@ -1,6 +1,6 @@
 $(function(){
     $.each($("p"), function(i, el) {
-        var words = $(this).text().split(" ");
+        var words = $(this).text().match(/\b(\w+\W+)/g)
         var text = words.join("</span> <span class='tt'>");
             $(this).html("<div>" + text + "</div>");
         });
@@ -9,6 +9,7 @@ $(function(){
 
         $(".tt").click(function () {
             var word = $(this)[0].innerText;
+            word = word.replace(/\b[-.,()&$#!\[\]{}"']+\B|\B[-.,()&$#!\[\]{}"']+\b/g, "");
             $("#result").html('<i class="fa fa-spinner fa-spin"></i>');
             $.getJSON('/translate/'+word, {text: word}, function(json, textStatus) {
                 var array = [];
@@ -21,7 +22,7 @@ $(function(){
                 $("#result").show();
 
                 clearTimeout(hiderTimeout);
-                
+
                 hiderTimeout = setTimeout(function(){
                     $("#result").hide();
                 } , 7000);
