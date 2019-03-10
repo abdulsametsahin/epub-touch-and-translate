@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" version="3.0" xml:lang="en" unique-identifier="pub-identifier">
+  <metadata>
+    <dc:identifier id="pub-identifier">_simple_book</dc:identifier>
+    <meta id="meta-identifier" property="dcterms:identifier">_simple_book</meta>
+    <dc:title id="pub-title">Heidi</dc:title>
+    <meta property="dcterms:title" id="meta-title">Heidi</meta>
+    <dc:language id="pub-language">en</dc:language>
+    <meta property="dcterms:language" id="meta-language">en</meta>
+    <meta property="dcterms:modified">2014-03-13T17:11:16Z</meta>
+    <!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+    <meta content="cover-image" name="cover"/>
+    <meta id="meta-creator1" property="dcterms:creator">Johanna Spyri</meta>
+    <dc:creator id="pub-creator1">Johanna Spyri</dc:creator>
+    <meta property="dcterms:contributor">Maria Louise Kirk</meta>
+    <dc:contributor>Maria Louise Kirk</dc:contributor>
+    <meta property="dcterms:contributor">Elisabeth P. (Elisabeth Pausinger) Stork</meta>
+    <dc:contributor>Elisabeth P. (Elisabeth Pausinger) Stork</dc:contributor>
+    <meta property="dcterms:date">2014-03-13</meta>
+    <dc:date>2014-03-13</dc:date>
+    <meta property="dcterms:publisher">epubBooks Classics</meta>
+    <dc:publisher>epubBooks Classics</dc:publisher>
+    <meta property="dcterms:date">First published in 1919</meta>
+    <dc:date>First published in 1919</dc:date>
+    <meta property="dcterms:rights">Copyright © 2014 epubBooks</meta>
+    <dc:rights>Copyright © 2014 epubBooks</dc:rights>
+    <meta property="dcterms:rightsHolder">epubBooks</meta>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="htmltoc" properties="nav" media-type="application/xhtml+xml" href="bk01-toc.xhtml"/>
+    <item media-type="text/css" id="html-css" href="epubbooks.css"/>
+    <item media-type="text/css" id="docbook-css" href="docbook-epub.css"/>
+    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover-image" properties="cover-image" href="epubbooks-cover.jpg" media-type="image/jpeg"/>
+    <item id="id-id1172295530429" href="index.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295961282" href="pr01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294564648" href="ch01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295959906" href="ch01s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295957413" href="ch01s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295954801" href="ch01s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295590372" href="ch01s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294683824" href="ch01s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294681716" href="ch01s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294679172" href="ch01s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295260223" href="ch01s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294567128" href="ch01s09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294570550" href="ch01s10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295210820" href="ch01s11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295214227" href="ch01s12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294505602" href="ch01s13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295324320" href="ch01s14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294587570" href="ch02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294584851" href="ch02s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294512591" href="ch02s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295265665" href="ch02s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295651654" href="ch02s04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294602699" href="ch02s05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294752741" href="ch02s06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172294679777" href="ch02s07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295591199" href="ch02s08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1172295329128" href="ch02s09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id1172294600988" href="images/imagep030.jpg" media-type="image/jpeg"/>
+    <item id="id1172291748202" href="images/imagep041.jpg" media-type="image/jpeg"/>
+    <item id="id1172294599211" href="images/imagep057.jpg" media-type="image/jpeg"/>
+    <item id="id1172294602601" href="images/imagep071.jpg" media-type="image/jpeg"/>
+    <item id="id1172294536606" href="images/imagep092.jpg" media-type="image/jpeg"/>
+    <item id="id1172294754092" href="images/imagep116.jpg" media-type="image/jpeg"/>
+    <item id="id1172295066628" href="images/imagep152.jpg" media-type="image/jpeg"/>
+    <item id="id1172294643959" href="images/imagep179.jpg" media-type="image/jpeg"/>
+    <item id="id1172295669888" href="images/imagep192.jpg" media-type="image/jpeg"/>
+    <item id="id1172294755676" href="images/imagep211.jpg" media-type="image/jpeg"/>
+    <item id="id1172294600476" href="images/imagep241.jpg" media-type="image/jpeg"/>
+    <item id="id1172295671932" href="images/imagep277.jpg" media-type="image/jpeg"/>
+    <item id="id1172294600000" href="images/imagep298.jpg" media-type="image/jpeg"/>
+    <item id="id1172294602052" href="images/heidi.jpg" media-type="image/jpeg"/>
+    <item id="id1172294755150" href="images/peter.jpg" media-type="image/jpeg"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover" linear="no"/>
+    <itemref idref="htmltoc" linear="yes"/>
+    <itemref idref="id-id1172295530429"/>
+    <itemref idref="id-id1172295961282"/>
+    <itemref idref="id-id1172294564648"/>
+    <itemref idref="id-id1172295959906"/>
+    <itemref idref="id-id1172295957413"/>
+    <itemref idref="id-id1172295954801"/>
+    <itemref idref="id-id1172295590372"/>
+    <itemref idref="id-id1172294683824"/>
+    <itemref idref="id-id1172294681716"/>
+    <itemref idref="id-id1172294679172"/>
+    <itemref idref="id-id1172295260223"/>
+    <itemref idref="id-id1172294567128"/>
+    <itemref idref="id-id1172294570550"/>
+    <itemref idref="id-id1172295210820"/>
+    <itemref idref="id-id1172295214227"/>
+    <itemref idref="id-id1172294505602"/>
+    <itemref idref="id-id1172295324320"/>
+    <itemref idref="id-id1172294587570"/>
+    <itemref idref="id-id1172294584851"/>
+    <itemref idref="id-id1172294512591"/>
+    <itemref idref="id-id1172295265665"/>
+    <itemref idref="id-id1172295651654"/>
+    <itemref idref="id-id1172294602699"/>
+    <itemref idref="id-id1172294752741"/>
+    <itemref idref="id-id1172294679777"/>
+    <itemref idref="id-id1172295591199"/>
+    <itemref idref="id-id1172295329128"/>
+  </spine>
+  <guide>
+    <reference href="cover.xhtml" type="cover" title="Cover"/>
+    <reference href="bk01-toc.xhtml" type="toc" title="Table of Contents"/>
+  </guide>
+</package>

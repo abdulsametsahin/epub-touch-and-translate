@@ -9,13 +9,26 @@
 	<h3>Kitaplar</h3>
 	<ul>
 		<li>
-			<a href="{{ url_for('book', bookname='sefiller') }}">Sefiller</a>
+			Hard
+			<ol>
+				<li>
+					<a href="{{ url_for('book', bookname='sefiller') }}">Sefiller</a>
+				</li>
+				<li>
+					<a href="{{ url_for('book', bookname='bride') }}">Bride</a>
+				</li>
+			</ol>
 		</li>
 		<li>
-			<a href="{{ url_for('book', bookname='bride') }}">Bride</a>
-		</li>
-		<li>
-			<a href="{{ url_for('book', bookname='hawthorne-a-wonder-book-for-girls-boys') }}">A Wonder Book (For Child)</a>
+			Easy
+			<ol>
+				<li>
+					<a href="{{ url_for('book', bookname='hawthorne-a-wonder-book-for-girls-boys') }}">A Wonder Book</a>
+				</li>
+				<li>
+					<a href="{{ url_for('book', bookname='spyri-heidi-illustrations') }}">Heidi</a>
+				</li>
+			</ol>
 		</li>
 	</ul>
 </body>
