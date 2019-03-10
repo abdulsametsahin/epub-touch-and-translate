@@ -15,6 +15,7 @@ $(function(){
             textFull += " "+ word;
             word = word.replace(/(?:[\(\)\-&$#!\[\]{}\"\',\.]+(?:\s|$)|(?:^|\s)[\(\)\-&$#!\[\]{}\"\',\.]+)/g, ' ').trim();
             $("#result").html('<i class="fa fa-spinner fa-spin"></i>');
+            $("#result").show();
             $.getJSON('/translate/'+textFull, {text: textFull}, function(json, textStatus) { 
 
                 var array = [];
@@ -24,7 +25,6 @@ $(function(){
                 var text = array.join("<br/>");
                 $("#result").html("<i class='fa fa-volume-up'></i> "+json.origin +"<hr> <b>"+text+"</b>");
                 $("#result").data('text', json.origin);
-                $("#result").show();
 
                 clearTimeout(hiderTimeout);
 
