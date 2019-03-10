@@ -1,6 +1,6 @@
 $(function(){
     $.each($("p"), function(i, el) {
-        var words = $(this).text().match(/\b(\w+\W+)/g)
+        var words = $(this).text().split(' ')
         var text = words.join("</span> <span class='tt'>");
             $(this).html("<div>" + text + "</div>");
         });
