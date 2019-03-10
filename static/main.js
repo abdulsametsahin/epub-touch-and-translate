@@ -12,16 +12,16 @@ $(function(){
             $(this).css('background', '#000');
             $(this).css('color', 'var(--bg-color)');
             var word = $(this)[0].innerText;
+            textFull += " "+ word;
             word = word.replace(/(?:[\(\)\-&$#!\[\]{}\"\',\.]+(?:\s|$)|(?:^|\s)[\(\)\-&$#!\[\]{}\"\',\.]+)/g, ' ').trim();
-
             $("#result").html('<i class="fa fa-spinner fa-spin"></i>');
-            $.getJSON('/translate/'+word, {text: word}, function(json, textStatus) { 
+            $.getJSON('/translate/'+textFull, {text: textFull}, function(json, textStatus) { 
 
                 var array = [];
                 $.each(json.extra_data["possible-translations"][0][2], function(i, arr){
                     array.push(arr[0]);
                 })
-                var text = array.join(", ");
+                var text = array.join("<br/>");
                 $("#result").html("<i class='fa fa-volume-up'></i> "+json.origin +"<hr> <b>"+text+"</b>");
                 $("#result").data('text', json.origin);
                 $("#result").show();
@@ -29,7 +29,7 @@ $(function(){
                 clearTimeout(hiderTimeout);
 
                 hiderTimeout = setTimeout(function(){
-
+                    textFull = "";
                     $(".tt").css('background', 'transparent');
                     $(".tt").css('color', '#000'); 
                     $("#result").hide();
