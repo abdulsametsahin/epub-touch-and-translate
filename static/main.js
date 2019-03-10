@@ -14,10 +14,11 @@ $(function(){
             var word = $(this)[0].innerText;
             word = word.replace(/(?:[\(\)\-&$#!\[\]{}\"\',\.]+(?:\s|$)|(?:^|\s)[\(\)\-&$#!\[\]{}\"\',\.]+)/g, ' ').trim();
 
-            textFull += " "+ word;
-
             $("#result").html('<i class="fa fa-spinner fa-spin"></i>');
-            $.getJSON('/translate/'+textFull, {text: textFull}, function(json, textStatus) {
+            $.getJSON('/translate/'+word, {text: word}, function(json, textStatus) {
+                $(".tt").css('background', 'transparent');
+                $(".tt").css('color', '#000');  
+
                 var array = [];
                 $.each(json.extra_data["possible-translations"][0][2], function(i, arr){
                     array.push(arr[0]);
@@ -31,9 +32,6 @@ $(function(){
 
                 hiderTimeout = setTimeout(function(){
                     $("#result").hide();
-                    textFull = "";
-                    $(".tt").css('background', 'transparent');
-                    $(".tt").css('color', '#000');
                 } , 7000);
             });
     });
