@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" version="3.0" xml:lang="en" unique-identifier="pub-identifier">
+  <metadata>
+    <dc:identifier id="pub-identifier">_simple_book</dc:identifier>
+    <meta id="meta-identifier" property="dcterms:identifier">_simple_book</meta>
+    <dc:title id="pub-title">A Wonder Book for Girls &amp; Boys</dc:title>
+    <meta property="dcterms:title" id="meta-title">A Wonder Book for Girls &amp; Boys</meta>
+    <dc:language id="pub-language">en</dc:language>
+    <meta property="dcterms:language" id="meta-language">en</meta>
+    <meta property="dcterms:modified">2014-04-24T11:58:03Z</meta>
+    <!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+    <meta content="cover-image" name="cover"/>
+    <meta id="meta-creator1" property="dcterms:creator">Nathaniel Hawthorne</meta>
+    <dc:creator id="pub-creator1">Nathaniel Hawthorne</dc:creator>
+    <meta property="dcterms:contributor">Walter Crane</meta>
+    <dc:contributor>Walter Crane</dc:contributor>
+    <meta property="dcterms:date">2014-04-24</meta>
+    <dc:date>2014-04-24</dc:date>
+    <meta property="dcterms:publisher">epubBooks Classics</meta>
+    <dc:publisher>epubBooks Classics</dc:publisher>
+    <meta property="dcterms:date">First published in 1851</meta>
+    <dc:date>First published in 1851</dc:date>
+    <meta property="dcterms:rights">Copyright © 2014 epubBooks</meta>
+    <dc:rights>Copyright © 2014 epubBooks</dc:rights>
+    <meta property="dcterms:rightsHolder">epubBooks</meta>
+    <meta property="dcterms:subject">Myth &amp; Legend Told As Fiction</meta>
+    <dc:subject>Myth &amp; Legend Told As Fiction</dc:subject>
+    <meta property="dcterms:subject">Children's Fiction</meta>
+    <dc:subject>Children's Fiction</dc:subject>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="htmltoc" properties="nav" media-type="application/xhtml+xml" href="bk01-toc.xhtml"/>
+    <item media-type="text/css" id="html-css" href="epubbooks.css"/>
+    <item media-type="text/css" id="docbook-css" href="docbook-epub.css"/>
+    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover-image" properties="cover-image" href="bookcover-generated.jpg" media-type="image/jpeg"/>
+    <item id="id-id1169333556008" href="index.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333674469" href="pr01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333389328" href="ch01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333681457" href="ch01s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169334079920" href="ch01s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333904090" href="ch01s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333706986" href="ch02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333556051" href="ch02s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333591025" href="ch02s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333901038" href="ch02s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333881584" href="ch03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333708249" href="ch03s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333556116" href="ch03s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333587432" href="ch03s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333552650" href="ch04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333859550" href="ch04s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333880686" href="ch04s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333739140" href="ch04s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333707910" href="ch05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333907092" href="ch05s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333675346" href="ch05s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333907908" href="ch05s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333556671" href="ch06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333877819" href="ch06s01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333588822" href="ch06s02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id-id1169333554044" href="ch06s03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id1169334023580" href="images/tail01.jpg" media-type="image/jpeg"/>
+    <item id="id1169334065110" href="images/frontispiece.jpg" media-type="image/jpeg"/>
+    <item id="id1169334047512" href="images/gorgon01top.jpg" media-type="image/jpeg"/>
+    <item id="id1169334025215" href="images/gorgon02top.jpg" media-type="image/jpeg"/>
+    <item id="id1169334022967" href="images/perseus1.jpg" media-type="image/jpeg"/>
+    <item id="id1169333237693" href="images/perseus2.jpg" media-type="image/jpeg"/>
+    <item id="id1169333377587" href="images/perseus3.jpg" media-type="image/jpeg"/>
+    <item id="id1169334064552" href="images/perseus4.jpg" media-type="image/jpeg"/>
+    <item id="id1169334029729" href="images/tail03.jpg" media-type="image/jpeg"/>
+    <item id="id1169333400763" href="images/gorgon03.jpg" media-type="image/jpeg"/>
+    <item id="id1169334046751" href="images/tail04.jpg" media-type="image/jpeg"/>
+    <item id="id1169333512752" href="images/golden01top.jpg" media-type="image/jpeg"/>
+    <item id="id1169333510479" href="images/golden02top.jpg" media-type="image/jpeg"/>
+    <item id="id1169333409847" href="images/midas1.jpg" media-type="image/jpeg"/>
+    <item id="id1169334041596" href="images/midas2.jpg" media-type="image/jpeg"/>
+    <item id="id1169334038722" href="images/midas3.jpg" media-type="image/jpeg"/>
+    <item id="id1169333513354" href="images/tail05.jpg" media-type="image/jpeg"/>
+    <item id="id1169333420236" href="images/golden03top.jpg" media-type="image/jpeg"/>
+    <item id="id1169333508163" href="images/tail06.jpg" media-type="image/jpeg"/>
+    <item id="id1169333507520" href="images/paradise01top.jpg" media-type="image/jpeg"/>
+    <item id="id1169333509865" href="images/tail07.jpg" media-type="image/jpeg"/>
+    <item id="id1169333532246" href="images/paradise02top.jpg" media-type="image/jpeg"/>
+    <item id="id1169334024170" href="images/pandora1.jpg" media-type="image/jpeg"/>
+    <item id="id1169334048554" href="images/pandora2.jpg" media-type="image/jpeg"/>
+    <item id="id1169334033779" href="images/pandora3.jpg" media-type="image/jpeg"/>
+    <item id="id1169334062111" href="images/tail08.jpg" media-type="image/jpeg"/>
+    <item id="id1169333533206" href="images/paradise03top.jpg" media-type="image/jpeg"/>
+    <item id="id1169334062626" href="images/apples01top.jpg" media-type="image/jpeg"/>
+    <item id="id1169334026920" href="images/tail09.jpg" media-type="image/jpeg"/>
+    <item id="id1169334037854" href="images/apples02top.jpg" media-type="image/jpeg"/>
+    <item id="id1169334045697" href="images/hercules1.jpg" media-type="image/jpeg"/>
+    <item id="id1169333513731" href="images/hercules2.jpg" media-type="image/jpeg"/>
+    <item id="id1169333371893" href="images/hercules3.jpg" media-type="image/jpeg"/>
+    <item id="id1169333425830" href="images/tail10.jpg" media-type="image/jpeg"/>
+    <item id="id1169333507441" href="images/apples03top.jpg" media-type="image/jpeg"/>
+    <item id="id1169333517461" href="images/tail11.jpg" media-type="image/jpeg"/>
+    <item id="id1169333532766" href="images/pitcher01top.jpg" media-type="image/jpeg"/>
+    <item id="id1169333401336" href="images/tail12.jpg" media-type="image/jpeg"/>
+    <item id="id1169334039872" href="images/pitcher02top.jpg" media-type="image/jpeg"/>
+    <item id="id1169333512924" href="images/philemon1.jpg" media-type="image/jpeg"/>
+    <item id="id1169333435807" href="images/philemon2.jpg" media-type="image/jpeg"/>
+    <item id="id1169333416779" href="images/philemon3.jpg" media-type="image/jpeg"/>
+    <item id="id1169333395766" href="images/tail13.jpg" media-type="image/jpeg"/>
+    <item id="id1169334037683" href="images/pitcher03top.jpg" media-type="image/jpeg"/>
+    <item id="id1169333512114" href="images/tail14.jpg" media-type="image/jpeg"/>
+    <item id="id1169333427559" href="images/chimaera01top.jpg" media-type="image/jpeg"/>
+    <item id="id1169333421440" href="images/tail15.jpg" media-type="image/jpeg"/>
+    <item id="id1169334038183" href="images/chimaera02top.jpg" media-type="image/jpeg"/>
+    <item id="id1169334023726" href="images/bellerophon1.jpg" media-type="image/jpeg"/>
+    <item id="id1169334034228" href="images/bellerophon2.jpg" media-type="image/jpeg"/>
+    <item id="id1169333512398" href="images/tail16.jpg" media-type="image/jpeg"/>
+    <item id="id1169334034626" href="images/chimaera03top.jpg" media-type="image/jpeg"/>
+    <item id="id1169333395877" href="images/tail17.jpg" media-type="image/jpeg"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover" linear="no"/>
+    <itemref idref="htmltoc" linear="yes"/>
+    <itemref idref="id-id1169333556008"/>
+    <itemref idref="id-id1169333674469"/>
+    <itemref idref="id-id1169333389328"/>
+    <itemref idref="id-id1169333681457"/>
+    <itemref idref="id-id1169334079920"/>
+    <itemref idref="id-id1169333904090"/>
+    <itemref idref="id-id1169333706986"/>
+    <itemref idref="id-id1169333556051"/>
+    <itemref idref="id-id1169333591025"/>
+    <itemref idref="id-id1169333901038"/>
+    <itemref idref="id-id1169333881584"/>
+    <itemref idref="id-id1169333708249"/>
+    <itemref idref="id-id1169333556116"/>
+    <itemref idref="id-id1169333587432"/>
+    <itemref idref="id-id1169333552650"/>
+    <itemref idref="id-id1169333859550"/>
+    <itemref idref="id-id1169333880686"/>
+    <itemref idref="id-id1169333739140"/>
+    <itemref idref="id-id1169333707910"/>
+    <itemref idref="id-id1169333907092"/>
+    <itemref idref="id-id1169333675346"/>
+    <itemref idref="id-id1169333907908"/>
+    <itemref idref="id-id1169333556671"/>
+    <itemref idref="id-id1169333877819"/>
+    <itemref idref="id-id1169333588822"/>
+    <itemref idref="id-id1169333554044"/>
+  </spine>
+  <guide>
+    <reference href="cover.xhtml" type="cover" title="Cover"/>
+    <reference href="bk01-toc.xhtml" type="toc" title="Table of Contents"/>
+  </guide>
+</package>
