@@ -22,11 +22,12 @@ $(function(){
         var index = parseInt($(this).data('index'));
         // Kelime
         var word = $(this)[0].innerText;
+        // Kelimeden noktalama işaretlerini kaldır.
+        word = word.replace(/(?:[\(\)\-&$#!\[\]{}\"\',\.]+(?:\s|$)|(?:^|\s)[\(\)\-&$#!\[\]{}\"\',\.]+)/g, ' ').trim();
         // Eğer ilk kez tıklanıyorsa (null)
         // Ya da tıklanan kelime, önceki kelimeden sonra geliyorsa toplu çevir
         // Yoksa son tıklanan kelimeyi çevir.
         if (lastIndex+1 == index || lastIndex == null){
-            lastIndex = index;
             textFull += " " + word;
         }else {
             textFull = "";
@@ -34,41 +35,43 @@ $(function(){
             $(".tt").css('background', 'transparent');
             $(".tt").css('color', '#000'); 
             textFull = word;
-            lastIndex = null;
         }
+
+        lastIndex = index;
+
         // Tıklanan kelimeyi seç
         $(this).css('background', '#000');
         $(this).css('color', 'var(--bg-color)');
-        // Kelimeden noktalama işaretlerini kaldır.
-        word = word.replace(/(?:[\(\)\-&$#!\[\]{}\"\',\.]+(?:\s|$)|(?:^|\s)[\(\)\-&$#!\[\]{}\"\',\.]+)/g, ' ').trim();
         // Yükleniyor.
         $("#result").html('<i class="fa fa-spinner fa-spin"></i>');
         $("#result").show();
+        textFull = textFull.trim();
         // Çevir
         $.getJSON('/translate/'+textFull, {text: textFull}, function(json, textStatus) { 
 
-            var array = [];
+            var array = ["<span>"+json.text+"</span>"];
             $.each(json.extra_data["possible-translations"][0][2], function(i, arr){
-                array.push(arr[0]);
+                if (arr[0] != json.text && arr[0] != textFull)
+                    array.push(arr[0]);
             })
-            var text = array.join("<br/>");
-            $("#result").html("<i class='fa fa-volume-up'></i> "+json.origin +"<hr> <b>"+text+"</b>");
+            var text = array.join("</span> <span>");
+            $("#result").html("<div class='origin'><i class='fa fa-volume-up'></i> "+json.origin +"</div> "+text);
             $("#result").data('text', json.origin);
 
             clearTimeout(hiderTimeout);
-            // 7sn sonra çeviriyi gizle.
+            // Xsn sonra çeviriyi gizle.
             hiderTimeout = setTimeout(function(){
                 textFull = "";
                 $(".tt").css('background', 'transparent');
                 $(".tt").css('color', '#000'); 
                 $("#result").hide();
-            } , 7000);
+            } , 4500);
         });
     });
 });
 
 $("#result").click(function(){
-    responsiveVoice.speak($(this).data('text'));
+    responsiveVoice.speak($(this).data('text'), "US English Male");
 });
 
 $("#sayfalariAc").click(function(event) {

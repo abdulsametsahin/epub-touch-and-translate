@@ -62,16 +62,39 @@ p {
 }
 
 #result {
+	display: none;
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
-	margin-left: 10px;
+	left: 10px;
 	padding: 5px;
 	border-radius: 3px;
-	background: purple;
-	color: #fff;
+	background: #fff;
+	color: #000;
 	z-index: 99;
 	font-size: 2.5vh;
+	font-family: Arial;
+	box-shadow: 0 0 10px rgba(0,0,0,.1), 0 0 10px rgba(0,0,0,.1);
+}
+
+#result b, #result span {
+	font-family: Arial;
+}
+
+#result .origin {
+	border-bottom: 1px solid rgba(0,0,0, .1);
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	font-family: Arial;
+}
+
+#result span {
+	padding: 3px 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	background: rgba(0,0,0,.1);
+	display: inline-block;
+	border-radius: 3px;
 }
 
 .linkler {
@@ -140,4 +163,8 @@ p {
 
 #sayfalar h2 {
 	font-size: 3vh;
+}
+
+.caption {
+	font-weight: bold;
 }
